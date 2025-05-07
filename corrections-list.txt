@@ -1,0 +1,26 @@
+=== A list of the corrections made and why each was necessary ===
+
+- we don't use; remove ===== const invalidBookingJSON = ``;
+- missing a comma after checkInDate; add comma ===== "checkInDate": "2024-05-15"
+- missing quotations around "name" in; add quotes ===== name: "Alice Johnson",
+- misuse of undefined in Bob Smiths age; change to null ===== "age": undefined,
+- missing the .com in Bob Smith's email; add .com ===== "email": "bob.smith@example"
+- was an extra comma; delete comma ===== "Parking",
+
+💬 Reflect and answer the following:
+
+1️⃣ What tools or techniques did you use to identify the errors?
+I read through the program slowly to identify any squiggly lines under values.
+After identifying WHERE the errors were, I was able to use context clue to determine WHAT the errors were.
+
+2️⃣ How did you confirm that your corrected JSON file was valid?
+I confirmed it was valid by using an online validator. 
+I pasted my code into the input field and the validator let me know whether it was valid or not.
+
+3️⃣ Which errors were the most difficult to spot? Why?
+The most difficult to spot was extra or missing commas because they are so small and seem like such a tiny problem.
+Even the "smallest" of problems can wreck the whole program!
+
+4️⃣ What strategies can help you avoid these kinds of errors in the future?
+The online validators were very helpful. I missed the error that undefined can't be used in Bobs age.
+The online validator brought it to my attention, allowing me to then change undefined to null.
