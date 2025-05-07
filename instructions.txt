@@ -1,0 +1,23 @@
+Using JSON - 5 Practice: Debugging JSON Travel Bookings
+05/07/25
+
+Instructions:
+You will analyze a JSON file in the software-dev-course-common-errors-in-json
+GitHub repo containing multiple syntax errors, identify the issues, and correct them.
+
+Scenario:
+You are working as a developer on a team building a travel booking API. One of
+your teammates has created a JSON file to represent a hotel booking, but it
+contains several syntax errors that prevent it from being parsed. Your task is to
+identify and fix these errors.
+
+===== TASKS =====
+1. Review the JSON file in the GitHub repo to identify all syntax errors.
+2. Correct the JSON file to make it valid.
+3. Use a JSON validator to confirm that your corrected file is error-free.
+4. List each of the specific corrections you made within comments in your code and explain why they were necessary.
+
+To complete this task, you will also need to follow the instructions to use one of the
+following JSON validators:
+● JSONLint: https://jsonlint.com/ 
+● Code Beautify: https://codebeautify.org/jsonvalidator 
